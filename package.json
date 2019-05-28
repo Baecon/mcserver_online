@@ -1,0 +1,33 @@
+{
+  "name": "server_online",
+  "version": "1.0.0",
+  "description": "checks to see if a minecraft server is online",
+  "main": "online.js",
+  "dependencies": {
+    "discord.js": "^11.5.0",
+    "minecraft-protocol": "^1.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baecon/server_online.git"
+  },
+  "keywords": [
+    "minecraft",
+    "nodejs",
+    "discord",
+    "discordjs",
+    "discord.js",
+    "online",
+    "check"
+  ],
+  "author": "baecon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baecon/server_online/issues"
+  },
+  "homepage": "https://github.com/Baecon/server_online#readme"
+}

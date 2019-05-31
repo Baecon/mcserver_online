@@ -93,7 +93,7 @@ function startDiscord(token){
                         //creates the embed...
                         const embed = new Discord.RichEmbed()
                             .setColor(0xffe9f3)
-                            .setFooter('made by baecon#0666')//change this if you want idc
+                            .setFooter('https://baecon.dev')//change this if you want idc
                             .setThumbnail(settings.thumbnail)
                             .setTimestamp()
                             .addField("Status", 'server is online!', true)

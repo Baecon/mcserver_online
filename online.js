@@ -84,7 +84,11 @@ function startDiscord(token){
                             for(i=0;result.players.sample.length > i; i++) {
                                 players.push(result.players.sample[i].name)
                             }
-                            var players2 = players.splice(0, Math.ceil(players.length / 2))  
+                            var players2 = players.splice(0, Math.ceil(players.length / 2))
+                            if (players == []) {
+                                players.push(players2)
+                                players2 = "."
+                            }  
                         }
                         catch {
                             var players = '0 players'
